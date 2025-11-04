@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\Destination; // ✅ pakai model yang kamu buat
+use function view; // ✅ tambahkan ini agar fungsi view() dikenali
 
 class HomeController extends Controller
 {
